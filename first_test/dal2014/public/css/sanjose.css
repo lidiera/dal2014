@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#green-circle {
+	width: 50%;
+	height: 50%;
+}
+
+#green-circle-span {
+	background-image: url("img/wdal2014/green_circle.png");
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+}

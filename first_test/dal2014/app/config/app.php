@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost:8888/dal2014/first_test/dal2014/public/',
+	'url' => 'http://ec2-54-173-57-189.compute-1.amazonaws.com/dal2014/first_test/dal2014/public/',
 
 	/*
 	|--------------------------------------------------------------------------
