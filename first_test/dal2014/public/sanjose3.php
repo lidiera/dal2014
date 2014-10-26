@@ -15,92 +15,81 @@
         <!-- <link rel="stylesheet" type="text/css" id="theme" href="css/sanjose.css"/> -->
 
         <style type="text/css">
-            #title-div{
-                text-align: center;
-                font-size: 200%;
-                color: #6fe003;
-                margin-bottom: 0px;
-            }
 
-            #title-p {
-                color: #6fe003;
-            }
-
-            #place-number-div {
-                text-align: center;
-                width: 100%;
-                position: relative;
-                top: -3px;
-            }
-
-            #place-number-image {
-                width: 200px;
-                height: 200px;
-            }
-
-            #place-number-span {
-                position: relative;
-                top: -132px;
-                text-decoration: none;
-                color: white;
-                font-size: 50px;
-                font-family: helvetica;
-            }
-
-            #green-circle-span {
-                background-image: url("img/wdal2014/green_circle.png");
-                height: 50px;
-                width: 50px;
-                display: inline-block;
-            }
-
-            #place-number-a {
-                text-decoration: none;
-            }
-            #place-number-a : hover {
-                text-decoration: none;
-            }
-
-            #legend-total-number-span {
-                font-size: 120%;
-                font-weight: bold;
-            }
-
-            #legend-tu-span {
-                font-size: 120%;
-                font-weight: bold;
-            }
-
-            #legend-place-number-span {
-                font-size: 120%;
-                font-weight: bold;
-            }
-
+            
             #legend-div {
-                border: 10px;
-                text-align: justify;
-                padding-left: 15px;
-                padding-right: 15px;
-                position: relative;
-                top: -65px;
-            }
-
-            #legend-p {
-                font-size: 120%;
-            }
-
-            #next-page-div{
                 text-align: center;
                 font-size: 200%;
                 color: #6fe003;
-                position: relative;
-                top: -65px;
             }
 
-            #next-page-a {
-                color: #6fe003;
-                text-decoration: none;
+            
+
+            .area-div {
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 120%;
+                height: 50px;
+                width: 320;
+                /*margin-left: 65px; */
+                margin-top: 5px;
+                margin-bottom: 5px;
+                padding-left: 30px;
+                padding-right: 30px;
+                
             }
+
+            .area-div p {
+                font-style: sans-serif;
+                border-radius: 1.5em;
+                line-height: 45px;
+            }
+
+            #area-1-p{
+                color: #ff9100;
+                border: solid thin #ff9100;
+            }
+
+            #area-2-p{
+                color: #e8762d;
+                border: solid thin #e8762d;
+            }
+
+            #area-3-p{
+                color: #d65050;
+                border: solid thin #d65050;
+            }
+
+            .call-to-action-div {
+                padding-left: 10px;
+                padding-right: 10px;
+                text-align: justify;
+            }
+
+            .call-to-action-p {
+
+            }
+
+            .call-1-span {
+                color: #ff9100;
+                font-weight: bold;
+            }
+
+            .call-2-span {
+                color: #e8762d;
+                font-weight: bold;
+            }
+
+            .call-3-span {
+                color: #d65050;
+                font-weight: bold;
+            }
+
+            #area-a {
+                text-decoration: none;
+                
+            }
+           
 
         </style>            
         <!-- EOF CSS INCLUDE -->
@@ -273,32 +262,126 @@
 
                 <!-- START BREADCRUMB -->
                 <ul class="breadcrumb">
-                    <li class="active">Calificación</li>
+                    <li><a href="sanjose1.php">Calificación </a></li>
+                    <li><a href="sanjose2.php">Por Áreas </a></li>                     
+                    <li class="active"> ¡Involúcrate! </li>
                 </ul>
                 <!-- END BREADCRUMB -->                       
                 
                 <!-- PAGE CONTENT WRAPPER -->
                 <div class="page-content-wrap">
-                    <div id="title-div">
-                        <p id="title-p"> Calificación: 70.12%</p>
-                    </div>
 
-                    <div id="place-number-div">
-                        <a id="place-number-a" href="sanjose2.php" >
-                            <div><img id="place-number-image" src="img/wdal2014/green_circle.png"/></div>
-                            <span id="place-number-span">#13</span>
-                        </a>
-                    </div>
 
                     <div id="legend-div">
                         <p id="legend-p">
-                            De <span id="legend-total-number-span">81</span> municipalidades en Costa Rica <span id="legend-tu-span">SU</span> municipalidad está en el puesto número <span id="legend-place-number-span">#13</span> según el Índice de Gestión Municipal.
+                            ¡INVOLÚCRATE¡
                         </p>
                     </div>
 
-                    <div id="next-page-div" >
-                        <a id="next-page-a" href="sanjose2.php" > TOCA PARA SABER MÁS </a>
+                    <div class="call-to-action-div">
+                        <p class="call-to-action-p">
+                            <span class="call-1-span">Planificación </span> tiene un <span class="call-1-span">77.15%</span>.
+                            Revisa los planes y ayuda a mejorarlos tocando en el apartado de Planes:
+                        </p>
                     </div>
+                    <div class="area-div" >
+                        <p id="area-1-p"> Ir a Planes </p>
+                    </div>
+
+                    <div class="call-to-action-div">
+                        
+                        <p class="call-to-action-p">
+                            <span class="call-2-span">Rendición de Cuentas </span> tiene un <span class="call-2-span">71%</span>.
+                            Cuentanos tu opinión sobre esta municipalidad:
+                        </p>
+                    </div>
+                    <div class="area-div" >
+                        <p id="area-2-p"> Ir a Estudios de Satisfacción </p>
+                    </div>
+
+                    <div class="call-to-action-div">
+                        <p class="call-to-action-p">
+                            <span class="call-3-span">Participación Ciudadana </span> tiene un <span class="call-3-span">31.4%</span>.
+                            Participa activamente en presupuesto de tu municipalidad:
+                        </p>
+                    </div>
+                    
+                    <div class="area-div" >
+                        <a id="area-a" href="sanjose-presupuesto-1.php"><p id="area-3-p"> Ir a Presupuestos</p></a>
+                    </div>
+                                       
+                    
+
+                    <script type="text/javascript">
+
+                            //servicios economicos 3
+                            // ambiental 11
+                            // gestion municipal 12
+                            // servicios social 20
+                            // participacion ciudadana 25
+                        
+
+                          function drawCircularCanvas(canvasId, canvasColor){
+                            var canvas = document.getElementById(canvasId);
+                            var context = canvas.getContext('2d');
+                            var centerX = 0;
+                            var centerY = 0;
+                            var radius = 25;
+
+                              // save state
+                              context.save();
+
+                              // translate context
+                              context.translate(canvas.width / 2, canvas.height / 2);
+
+                              // scale context horizontally
+                              context.scale(4, 1);
+
+                              // draw circle which will be stretched into an oval
+                              context.beginPath();
+                              context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+
+                              // restore to original state
+                              context.restore();
+
+                              // apply styling
+                              context.fillStyle = canvasColor;
+                              context.fill();
+                              context.lineWidth = 2;
+                              /*context.strokeStyle = 'black';*/
+                              /*context.stroke();*/
+                          }
+
+                          function drawCanvas(canvasId, canvasColor, canvasTitle, canvasDetail){
+                            var canvas = document.getElementById(canvasId);
+                            var context = canvas.getContext('2d');
+                            var centerX = 0;
+                            var centerY = 0;
+                            var width = 270;
+                            var height = 50;
+
+                              // save state
+                              context.save();
+                              //context.fillStyle = 'white';
+                             //context.fillRect(centerX, centerY, width, height)
+                              // apply styling
+                              
+                              //context.fill();
+                              context.fillStyle = canvasColor;
+                              context.font = "12pt sans-serif";
+                              context.lineWidth = 2;
+                              context.fillText(canvasTitle, 10, 30);
+                              context.strokeStyle = canvasColor;
+                              context.strokeRect(centerX, centerY, width, height);
+                          }
+
+                          drawCanvas('area-canvas-1', '#6fe003', '3 en Servicios Económicos', '');
+                          drawCanvas("area-canvas-2", '#ff9100', '11 en Desarrollo Ambiental', '');
+                          drawCanvas("area-canvas-3", '#ff9100', '12 en Gestión Municipal', '');
+                          drawCanvas("area-canvas-4", '#e8762d', '20 en Servicios Sociales', '');
+                          drawCanvas("area-canvas-5", '#d65050', '25 en Transparencia', '');
+
+                    </script>
                                                      
                 </div>            
             <!-- END PAGE CONTENT -->

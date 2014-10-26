@@ -62,6 +62,13 @@
                 line-height: 45px;
             }
 
+            .area-div a:hover {
+                text-decoration: none;
+            }
+
+
+            
+
             #area-1-p{
                 color: #6fe003;
                 border: solid thin #6fe003;
@@ -111,7 +118,7 @@
                 <!-- START X-NAVIGATION -->
                 <ul class="x-navigation">
                     <li>
-                        <a href="index.html">Municipalidad de San José</a>
+                        <a href="index.html" style="font-size:140%; font-weight:bold;">Municipalidad de San José</a>
                         <a href="#" class="x-navigation-control"></a>
                     </li>
                     <li class="xn-title">Escoja una opción:</li>
@@ -270,8 +277,8 @@
 
                 <!-- START BREADCRUMB -->
                 <ul class="breadcrumb">
-                    <li><a href="#">San José </a></li>                   
-                    <li class="active">San José</li>
+                    <li><a href="#">Calificación </a></li>                   
+                    <li class="active">Por Áreas</li>
                 </ul>
                 <!-- END BREADCRUMB -->                       
                 
@@ -281,47 +288,30 @@
 
                     <div id="legend-div">
                         <p id="legend-p">
-                            Conozca el puesto en cada área calificada
+                            Conozca las notas por área evaluada
                         </p>
                     </div>
 
-                    
-
-                    <!-- <div class="area-canvas-div">
-                        <canvas id="area-canvas-1" class="area-canvas" width="320" height="50"></canvas>    
-                    </div>
-                    <div class="area-canvas-div">
-                        <canvas id="area-canvas-2" class="area-canvas" width="320" height="50"></canvas>    
-                    </div>
-                    <div class="area-canvas-div">
-                        <canvas id="area-canvas-3" class="area-canvas" width="320" height="50"></canvas>    
-                    </div>
-                    <div class="area-canvas-div">
-                        <canvas id="area-canvas-4" class="area-canvas" width="320" height="50"></canvas>    
-                    </div>
-                    <div class="area-canvas-div">
-                        <canvas id="area-canvas-5" class="area-canvas" width="320" height="50"></canvas>    
-                    </div> -->
 
                     <div class="area-div" >
-                        <p id="area-1-p"> #3 en Servicios Económicos </p>
+                        <p id="area-1-p">Nota Gestión Municipal: 87.3%</p>
                     </div>
                     <div class="area-div" >
-                        <p id="area-2-p"> #11 en Desarrollo Ambiental </p>
+                        <p id="area-2-p">Nota Servicios Económicos: 69.2%</p>
                     </div>
                     <div class="area-div" >
-                        <p id="area-3-p"> #12 en Gestión Municipal </p>
+                        <p id="area-3-p">Nota Desarrollo Ambiental: 62.08%</p>
                     </div>
                     <div class="area-div" >
-                        <p id="area-4-p"> #20 en Servicios Sociales </p>
+                        <p id="area-4-p">Nota Servicios Sociales: 61.65%</p>
                     </div>
                     <div class="area-div" >
-                        <p id="area-5-p"> #25 en Involucramiento Ciudadano </p>
+                        <a href="sanjose3.php"><p id="area-5-p">Nota Transparencia: 61.58%</p></a>
                     </div>
 
 
                     <div id="next-page-div" >
-                        <p id="next-page-p"> TOCA UN ÁREA PARA CONTINUAR </p>
+                        <p id="next-page-p"> TOCA UN ÁREA PARA INVOLUCRARTE </p>
                     </div>
                    
                     

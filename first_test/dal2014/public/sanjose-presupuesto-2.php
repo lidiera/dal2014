@@ -15,92 +15,67 @@
         <!-- <link rel="stylesheet" type="text/css" id="theme" href="css/sanjose.css"/> -->
 
         <style type="text/css">
-            #title-div{
-                text-align: center;
-                font-size: 200%;
-                color: #6fe003;
-                margin-bottom: 0px;
-            }
 
-            #title-p {
-                color: #6fe003;
-            }
-
-            #place-number-div {
-                text-align: center;
-                width: 100%;
-                position: relative;
-                top: -3px;
-            }
-
-            #place-number-image {
-                width: 200px;
-                height: 200px;
-            }
-
-            #place-number-span {
-                position: relative;
-                top: -132px;
-                text-decoration: none;
-                color: white;
-                font-size: 50px;
-                font-family: helvetica;
-            }
-
-            #green-circle-span {
-                background-image: url("img/wdal2014/green_circle.png");
-                height: 50px;
-                width: 50px;
-                display: inline-block;
-            }
-
-            #place-number-a {
-                text-decoration: none;
-            }
-            #place-number-a : hover {
-                text-decoration: none;
-            }
-
-            #legend-total-number-span {
-                font-size: 120%;
-                font-weight: bold;
-            }
-
-            #legend-tu-span {
-                font-size: 120%;
-                font-weight: bold;
-            }
-
-            #legend-place-number-span {
-                font-size: 120%;
-                font-weight: bold;
-            }
-
+            
             #legend-div {
                 border: 10px;
-                text-align: justify;
+                text-align: center;
                 padding-left: 15px;
                 padding-right: 15px;
-                position: relative;
-                top: -65px;
+                /*margin-bottom: 30px;*/
             }
 
             #legend-p {
-                font-size: 120%;
+                font-size: 125%;
             }
 
             #next-page-div{
                 text-align: center;
-                font-size: 200%;
-                color: #6fe003;
-                position: relative;
-                top: -65px;
+                font-size: 135%;
+                /*color: #6fe003;*/
+                
             }
 
-            #next-page-a {
-                color: #6fe003;
+            #next-page-p {
+                color: grey;
+                font-family: helvetica;
+                margin-top: 10px;
+            }
+
+            .area-div {
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 120%;
+                height: 50px;
+                width: 320;
+                /*margin-left: 65px; */
+                margin-top: 5px;
+                margin-bottom: 5px;
+                padding-left: 30px;
+                padding-right: 30px;
+                
+            }
+
+            .area-div p {
+                font-style: sans-serif;
+                border-radius: 1.5em;
+                line-height: 45px;
+            }
+
+            .area-div a:hover {
                 text-decoration: none;
             }
+
+
+
+            .area-p{
+                color: #662583;
+                border: solid thin #662583;
+            }
+
+            
+
+            
 
         </style>            
         <!-- EOF CSS INCLUDE -->
@@ -273,32 +248,57 @@
 
                 <!-- START BREADCRUMB -->
                 <ul class="breadcrumb">
-                    <li class="active">Calificación</li>
+                    <li><a href="sanjose-presupuesto-1.php">Presupuesto </a></li>                  
+                    <li class="active">Bienes Duraderos</li>
                 </ul>
                 <!-- END BREADCRUMB -->                       
                 
                 <!-- PAGE CONTENT WRAPPER -->
-                <div class="page-content-wrap">
-                    <div id="title-div">
-                        <p id="title-p"> Calificación: 70.12%</p>
-                    </div>
 
-                    <div id="place-number-div">
-                        <a id="place-number-a" href="sanjose2.php" >
-                            <div><img id="place-number-image" src="img/wdal2014/green_circle.png"/></div>
-                            <span id="place-number-span">#13</span>
-                        </a>
-                    </div>
+
+                <div class="page-content-wrap">
+
 
                     <div id="legend-div">
                         <p id="legend-p">
-                            De <span id="legend-total-number-span">81</span> municipalidades en Costa Rica <span id="legend-tu-span">SU</span> municipalidad está en el puesto número <span id="legend-place-number-span">#13</span> según el Índice de Gestión Municipal.
+                            Presupuesto en Millones
                         </p>
                     </div>
 
+                    <!-- START WIDGET SLIDER -->
+                            <div class="widget widget-default widget-carousel">
+                                <div class="owl-carousel" id="owl-example">
+                                    <div>                                    
+                                        <div class="widget-title">Presupuestado para Bienes Duraderos</div>                                                                        
+                                        <div class="widget-subtitle">Periodo 2013</div>
+                                        <div class="widget-int">₡5'003,25</div>
+                                    </div>
+                                    <div>                                    
+                                        <div class="widget-title">Gastado en Bienes Duraderos</div>
+                                        <div class="widget-subtitle">Periodo 2013</div>
+                                        <div class="widget-int">₡2'058,11</div>
+                                    </div>
+                                    <div>                                    
+                                        <div class="widget-title">Porcentaje Gastado del Presupuesto</div>
+                                        <div class="widget-subtitle">Periodo 2013</div>
+                                        <div class="widget-int">41,13%</div>
+                                    </div>
+                                </div>                            
+                                                           
+                            </div>         
+                    <!-- END WIDGET SLIDER -->
+
                     <div id="next-page-div" >
-                        <a id="next-page-a" href="sanjose2.php" > TOCA PARA SABER MÁS </a>
+                        <p id="next-page-p"> TOCA UN ÁREA PARA INVOLUCRARTE </p>
                     </div>
+
+
+                    
+                    
+
+
+                    
+                   
                                                      
                 </div>            
             <!-- END PAGE CONTENT -->
