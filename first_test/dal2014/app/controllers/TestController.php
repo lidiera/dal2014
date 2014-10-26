@@ -11,7 +11,7 @@ class TestController extends \BaseController {
 	{
 		//
 		$data = array();
-		return View::make('test', $data);
+		return View::make('home', $data);
 	}
 
 
